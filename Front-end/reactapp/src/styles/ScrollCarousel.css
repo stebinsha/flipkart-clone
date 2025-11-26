@@ -1,0 +1,289 @@
+ 
+#scroll-section {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  width: 80%;
+  float: left;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+#scroll-section h5 {
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.scroll-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.scroll-item {
+  margin-top: 20px;
+  width: 210px;         
+  text-align: center;
+  flex: 0 0 auto; 
+}        
+
+.scroll-item img {
+  width: 200px;          
+  height: 200px;         
+  object-fit: contain;    
+  transition: transform 0.3s ease;
+}
+
+.scroll-item img:hover {
+  transform: scale(1.1);
+}
+
+.scroll-item h6 {
+  font-size: 14px;
+}
+
+.scroll-item p {
+  font-size: 13px;
+ 
+}
+ 
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 97%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: rgba(240, 237, 237, 0.5);
+  color: black;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow.left {
+  left: -20px;
+}
+
+.hidden {
+  display: none;
+}
+ #aeroplane-sticker {
+  width: 200px !important;
+  height: 298px !important;
+} 
+ #aeroplane-sticker img{
+     width: 200px !important;
+     height: 278px !important;
+}
+ 
+#scroll-section-1 {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  padding-left: 30px;
+}
+
+#scroll-section-1 h5 {
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.scroll-content-1 {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.scroll-content-1 h6 {
+  padding-top: 20px;
+}
+
+#scroll-section-1 img {
+  transition: transform 0.3s ease;
+  height: 150px;
+  object-fit: contain;  
+}
+
+#scroll-section-1 img:hover {
+  transform: scale(1.1);
+}
+
+.scroll-item-1 {
+  min-width: 20%;
+  box-sizing: border-box;
+}
+
+.scroll-item-1 p {
+  margin-top: 10px;
+  text-align: center;
+}
+ 
+@media (max-width: 1024px) {
+  .scroll-content,
+  .scroll-content-1 {
+    flex-wrap: wrap;
+    transform: none !important;  
+  }
+
+  .scroll-item,
+  .scroll-item-1 {
+    min-width: 30%;  
+  }
+
+  .arrow {
+    display: none;  
+  }
+}#scroll-section {
+text-align: center;
+background-color:#fff;
+position: relative;
+width: 80%;
+float: left;
+overflow: hidden;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 5px;
+padding-left: 30px;
+}
+#scroll-section h5{
+text-align: left;
+font-weight: bold;
+font-size:30px;
+} 
+.scroll-content {
+display: flex;
+transition: transform 0.5s ease;
+}
+.scroll-content h6{
+padding-top: 20px; 
+} 
+#scroll-section img{
+transition: transform 0.3s ease;
+height: 130px;
+flex-wrap: wrap; 
+}
+#scroll-section img:hover{
+transform: scale(1.1);
+} 
+.scroll-item {
+min-width: 20%;   
+box-sizing: border-box;
+}
+.scroll-item p{
+text-align: center;
+margin-bottom: 5px;
+}
+.arrow {
+position: absolute;
+top: 50%;
+left: 97%;
+transform: translateY(-50%);
+width: 50px;
+height: 90px;
+border-radius: 10px;
+background-color: rgba(240, 237, 237, 0.5);
+color: black;
+font-size: 30px;
+border: none;
+padding: 10px;
+cursor: pointer;
+z-index: 2;
+}
+.arrow.left { left: -20px; }
+.hidden { display: none; }
+
+#aeroplane-sticker {
+  width: 220px;
+  height: 325px !important;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aeroplane-sticker img{
+width: 220px;
+  height: 300px !important;
+}
+#scroll-section-1 {
+text-align: center;
+background-color:#fff;
+position: relative;
+width: 98%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 15px;
+padding-left: 30px;
+}
+
+#scroll-section-1 h5{
+text-align: left;
+font-weight: bold;
+padding-top: 10px;
+font-size:30px;
+} 
+
+.scroll-content-1 {
+display: flex;
+transition: transform 0.5s ease;
+}
+
+ 
+
+#scroll-section-1 img {
+transition: transform 0.3s ease;
+height: 150px;
+padding-top: 25px;
+}
+
+#scroll-section-1 img:hover {
+transform: scale(1.1);
+}
+
+.scroll-item-1 {
+min-width: 20%;
+box-sizing: border-box;
+}
+.scroll-item-1 h6 {
+  font-size: 15px;
+  margin:5px 0; 
+}
+.scroll-item-1 p {
+  margin: 0; 
+  text-align: center;
+}
+@media (max-width: 768px) {
+.arrow{
+    visibility: hidden;
+}
+#scroll-section{
+    width: 100%;
+}
+ 
+#aeroplane-sticker{
+    display: none;
+}
+
+}
+
+ 

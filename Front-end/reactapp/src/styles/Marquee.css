@@ -1,0 +1,29 @@
+.marquee {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 0, 0.486);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px 0;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scrollLeft 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee img {
+  width: 25px;
+  vertical-align: middle;
+}

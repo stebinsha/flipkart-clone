@@ -1,0 +1,264 @@
+PAGE
+.product-details-page {
+  font-family: "Poppins", sans-serif;
+}
+
+.product-details {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+ 
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-detail-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.buttons .btn {
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+ 
+#cart {
+  color: white;
+  border: 1px solid orange;
+  background-color: rgba(255, 166, 0, 0.85);
+}
+#buy {
+  color: white;
+  border: 1px solid orangered;
+  background-color: rgba(255, 68, 0, 0.85);
+}
+
+ 
+.details-info {
+  max-width: 400px;
+}
+
+.new-price {
+  color: green;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 0.95rem;
+  margin-left: 10px;
+}
+
+.discount {
+  color: red;
+  margin-left: 10px;
+}
+ 
+
+.ratings-container {
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+
+.ratings-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.ratings-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.rating-summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rating-score {
+  background: #0aa344;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 25px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.rating-star {
+  color: white;
+  position: relative;
+  right: 28px;
+}
+
+.rating-text {
+  color: #555;
+  margin-left: -15px;
+}
+ 
+.rate-product-btn {
+  margin-left: auto;
+  background: #2874f0;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.feel-images-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.feel-section {
+  margin-top: 10px;
+}
+
+.feel-icon {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.feel-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  background: #f8f8f8;
+}
+
+ 
+.customer-images-block h3 {
+  margin-bottom: 15px;
+}
+
+.customer-images {
+  display: flex;
+  gap: 10px;
+}
+
+.customer-images img,
+.more-images img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.more-images {
+  position: relative;
+}
+
+.more-count {
+  position: absolute;
+  top: 25px;
+  left: 18px;
+  color: white;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.single-review {
+  margin-top: 10px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.review-rating {
+  background: #0aa344;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rev-star {
+  color: white;
+}
+
+.review-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.review-photo {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.review-user-info {
+  margin-top: 10px;
+}
+
+.review-user-info span {
+  color: gray;
+  margin-left: 10px;
+}
+
+.buyer-status {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.review-actions {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  color: #777;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.three-dots {
+  font-size: 1.2rem;
+}

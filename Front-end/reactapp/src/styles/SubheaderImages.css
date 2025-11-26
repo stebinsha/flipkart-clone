@@ -1,0 +1,36 @@
+
+.subheader-section {
+  margin: 0;
+  padding: 0;
+}
+
+#headerimgs {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+#headerimgs .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+.header-text {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2;
+  font-size: 14px;
+  color: #000;
+}
+#content{
+    margin-top: 0px!important;
+    padding-top: 0px !important;
+}
